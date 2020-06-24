@@ -15,22 +15,25 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu1"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu2"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu3"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
     </TableRow>
 
     <TableRow
@@ -39,22 +42,25 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu4"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu5"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu6"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
     </TableRow>
 
     <TableRow
@@ -63,21 +69,24 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu7"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu8"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
 
         <Button
-            android:layout_marginRight="3pt"
             android:id="@+id/bu9"
             android:layout_width="40pt"
-            android:layout_height="40pt" />
+            android:layout_height="40pt"
+            android:layout_marginRight="3pt"
+            android:onClick="buClick" />
     </TableRow>
 </TableLayout>
