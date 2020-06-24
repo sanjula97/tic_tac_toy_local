@@ -1,5 +1,6 @@
 package com.example.tictactoylocal
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -28,6 +29,29 @@ class MainActivity : AppCompatActivity() {
             R.id.bu9 -> cellID = 9
         }
 
-        Toast.makeText(this,"ID:" + cellID,Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this,"ID:" + cellID,Toast.LENGTH_SHORT).show()
+         playGame(cellID,buSelected)
+    }
+
+    var player1 = ArrayList<Int>()
+    var player2 = ArrayList<Int>()
+    var activePlayer = 1
+
+
+    fun playGame(cellID:Int,buSellected:Button){
+
+        if(activePlayer == 1){
+            buSellected.text = "x"
+            buSellected.setBackgroundColor(Color.GREEN)
+            player1.add(cellID)
+            activePlayer = 2
+        }else{
+            buSellected.text = "o"
+            buSellected.setBackgroundColor(Color.BLUE)
+            player2.add(cellID)
+            activePlayer = 1
+        }
+        buSellected.isEnabled = false
+
     }
 }
